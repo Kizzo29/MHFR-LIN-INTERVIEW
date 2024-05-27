@@ -1,0 +1,108 @@
+$lightGreen : #b9e7e7;
+.app{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    .container {
+
+        width: 100%;
+        .link{
+              text-decoration: none;
+              color: inherit ;
+        }
+
+       //NAVBAR
+
+       .navbar{
+        background-color: $lightGreen;
+        top:0;
+        left: 0;
+        right: 0;
+        z-index: 100%;
+        width: 100%;
+        position: fixed;
+        .container{
+          
+            display: flex; 
+            align-items: center;
+            justify-content: space-between;
+            .logo{
+              
+            }
+            .links{
+                display: flex;
+                padding-right: 30px;
+                align-items: center;
+                gap: 20px;
+
+                h6{
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    //HOME
+    
+    .home {
+        background-color: red;
+        left: 0;
+        right: 0;
+    }
+
+      // NEW
+
+      .new {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            font-size: 20px;
+            color: teal;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            background-color: white;
+            width: 200px;
+            gap: 20px;
+
+            input{
+                padding: 10px;
+                border: none;
+                border-bottom: 1px solid gray;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                background-color: teal;
+                color: white;
+
+            }
+
+            p{
+                font-size: 12px;
+                color: red;
+            }
+
+            span {
+                font-size: 12px; 
+                text-align: center;
+            }
+
+        }
+    }
+
+
+
+
+    }
+}
