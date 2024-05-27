@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='logo'><h4> MHFR FACILITY MANAGEMENT</h4></div>
         <div className='links'>
         <Link className='link' to="/"><h6> Home </h6></Link>
-        <Link className='link' to="/new"><h6> Create Facility+ </h6></Link>
+        <Link className='link' to="/new"><h6> NewFacility </h6></Link>
         </div>
 
         </div>
